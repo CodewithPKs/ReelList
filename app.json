@@ -14,10 +14,15 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mindzita.ReelList"
+      "bundleIdentifier": "com.mindzita.ReelList",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -31,8 +36,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "c6106c2c-5621-465a-9f21-f3119aa82299"
+        "projectId": "95657d6f-3bd6-49aa-b57a-978dedb17f49"
       }
-    }
+    },
+    "owner": "praveen420"
   }
 }
