@@ -22,7 +22,8 @@
       "bundleIdentifier": "com.mindzita.ReelList",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
-      }
+      },
+      "buildNumber": "6"
     },
     "android": {
       "adaptiveIcon": {
@@ -40,5 +41,17 @@
       }
     },
     "owner": "praveen420"
+    ,
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "cxxLanguageStandard": "c++14",
+            "cxxLibrary": "libc++"
+          }
+        }
+      ]
+    ]
   }
 }
