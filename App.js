@@ -25,6 +25,8 @@ import EditCart from "./Screens/EditCart";
 import MyList from "./Screens/MyList";
 const Stack = createNativeStackNavigator();
 
+// npx eas build --platform ios --profile production
+// npx eas credentials
 const ScreenNavigatorStyle = {
   headerShown: false,
   headerStyle: {
