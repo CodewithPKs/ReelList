@@ -40,22 +40,6 @@
         "projectId": "95657d6f-3bd6-49aa-b57a-978dedb17f49"
       }
     },
-    "owner": "praveen420",
-    "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "ios": {
-            "useFrameworks": "static",
-            "newArchEnabled": false,
-            "deploymentTarget": "15.1"
-          },
-          "android": {
-            "compileSdkVersion": 34,
-            "targetSdkVersion": 34
-          }
-        }
-      ]
-    ]
+    "owner": "praveen420"
   }
 }
