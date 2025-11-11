@@ -13,6 +13,9 @@
     },
     "production": {
       "distribution": "store",
+      "ios": {
+        "image": "latest"
+      },
       "env": {
         "EXPO_XCODE_OTHER_CPLUSPLUSFLAGS": "-D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION"
       }
