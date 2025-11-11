@@ -1,6 +1,7 @@
 {
   "name": "reellist",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
@@ -43,7 +44,6 @@
     "expo-build-properties": "^1.0.9",
     "tailwindcss": "^3.3.2"
   },
-  "private": true,
   "expo": {
     "install": {
       "exclude": ["react-native-reanimated", "react-native-gesture-handler"]

@@ -42,16 +42,22 @@
     },
     "owner": "praveen420"
     ,
-    "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "ios": {
-            "cxxLanguageStandard": "c++14",
-            "cxxLibrary": "libc++"
-          }
-        }
-      ]
-    ]
+   "plugins": [
+  [
+    "expo-build-properties",
+    {
+      "ios": {
+        "useFrameworks": "static",
+        "newArchEnabled": false,
+        "deploymentTarget": "15.1"
+      },
+      "android": {
+        "compileSdkVersion": 34,
+        "targetSdkVersion": 34
+      }
+    }
+  ]
+]
+
   }
 }
