@@ -21,7 +21,6 @@
     "expo-status-bar": "~2.0.0",
     "expo-updates": "~0.24.12",
     "lottie-react-native": "5.1.4",
-    "nativewind": "^2.0.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.73.6",
@@ -41,8 +40,7 @@
     "react-redux": "^9.1.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.3",
-    "tailwindcss": "^3.4.3"
+    "@babel/core": "^7.24.3"
   },
   "expo": {
     "install": {
