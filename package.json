@@ -41,7 +41,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
-    "expo-build-properties": "^1.0.9",
     "tailwindcss": "^3.3.2"
   },
   "expo": {
