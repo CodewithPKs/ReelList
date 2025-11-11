@@ -11,20 +11,9 @@
     "preview": {
       "distribution": "internal"
     },
-   "production": {
-  "distribution": "store",
-  "env": {
-    "EXPO_XCODE_OTHER_CPLUSPLUSFLAGS": "-D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION"
-  },
-  "ios": {
-    "resourceClass": "m-medium",
-    "image": "latest"
-  },
-  "android": {
-    "buildType": "apk"
-  }
-}
-
+    "production": {
+      "distribution": "store"
+    }
   },
   "submit": {
     "production": {}
