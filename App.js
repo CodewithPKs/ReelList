@@ -1,3 +1,8 @@
+import { registerRootComponent } from 'expo';
+import App from './App';
+
+// Register the main component with Expo/React Native runtime
+registerRootComponent(App);
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
@@ -25,8 +30,6 @@ import EditCart from "./Screens/EditCart";
 import MyList from "./Screens/MyList";
 const Stack = createNativeStackNavigator();
 
-// npx eas build --platform ios --profile production
-// npx eas credentials
 const ScreenNavigatorStyle = {
   headerShown: false,
   headerStyle: {
